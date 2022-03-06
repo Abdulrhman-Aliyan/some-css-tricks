@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/81cb81536a.js"></script>
+    <link rel="stylesheet" href="products.css">
+    <title>Products</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">>
+            <h2 class="name">Product Name</h2>
+            <a href="#" class="buy">Buy now</a>
+            <div class="circle"></div>
+            <img src="gba sd/blue.png" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Product Name</h2>
+            <a href="#" class="buy">Buy now</a>
+            <div class="circle"></div>
+            <img src="gba sd/green.png" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Product Name</h2>
+            <a href="#" class="buy">Buy now</a>
+            <div class="circle"></div>
+            <img src="gba sd/red.png" class="product">
+        </div>
+    </div>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	    });
+    </script>
+</body>
+</html>
+
+<div class="home">
+    <a href="index.html"><p><i class="fas fa-home"></p></i></a>
+</div>

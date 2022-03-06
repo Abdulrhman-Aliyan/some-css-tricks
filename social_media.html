@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/81cb81536a.js"></script>
+    <link rel="stylesheet" href="social_media.css">
+    <title>Social media</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="toggle_button">
+            <ul>
+                <li><a href="#" class="share_btn">
+                    <span class="text">SHARE</span>
+                    <span class="icon"><i class="fas fa-plus"></i></span>
+                </a></li>
+                <li><a href="#" class="sm facebook">
+                    <span class="icon"> <i class="fab fa-facebook-f"></i></span>
+                    <span class="text">Facebook</span>
+                </a></li>
+                <li><a href="#" class="sm twitter">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    <span class="text">Twitter</span>
+                </a></li>
+                <li><a href="#" class="sm instagram">
+                    <span class="icon"><i class="fab fa-instagram"></i></span>
+                    <span class="text">Instagram</span>
+                </a></li>
+                <li><a href="#" class="sm linkedin">
+                    <span class="icon"><i class="fab fa-linkedin"></i></span>
+                    <span class="text">Linkedin</span>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="home">
+        <a href="index.html"><p><i class="fas fa-home"></p></i></a>
+    </div>
+</body>
+<script>
+    var share_btn = document.querySelector(".share_btn");
+    var toggle_button = document.querySelector(".toggle_button");
+
+    share_btn.addEventListener("click", function(){
+        toggle_button.classList.toggle("active")
+    });
+</script>
+</html>
